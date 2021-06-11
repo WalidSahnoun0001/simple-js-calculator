@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #eee;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(76, 79, 95);
+    padding: 20px;
+    border-radius: 15px;
+}
+.container form input{
+    border: none;
+    width: 190px;
+    height: 35px;
+    border-radius: 20px;
+    pointer-events: none;
+    padding: 0 15px;
+    margin: 10px 0;
+    background-color: #eee;
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+}
+.container button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #e63946;
+    color: #fff;
+    font-weight: bold;
+    margin: 2px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: #f34f5d;
+}
+button.special {
+    width: 90px;
+    border-radius: 20px;
+    background-color: #106697;
+}
+button.special:hover {
+    background-color: #327ba5;
+}
+button.plus {
+    background-color: #00cecb;
+}
+button.plus:hover {
+    background-color: #7dd3d1;
+}
+button.main {
+    background-color: #e9d32b;
+}
+button.main:hover {
+    background-color: #d3c874;
+}
+button.div {
+    background-color: #02bd56;
+}
+button.div:hover {
+    background-color: #79da81;
+}
+button.darb {
+    background-color: #eb9a21;
+}
+button.darb:hover {
+    background-color: #f0ca64;
+}
+button.clear {
+    background-color: #680944;
+}
+button.clear:hover {
+    background-color: #702e6d;
+}
+button.delete {
+    background-color: #7c2424;
+}
+button.delete:hover {
+    background-color: #964e4e;
+}
+button.pourcent {
+    background-color: #200175;
+}
+button.pourcent:hover {
+    background-color: #4b2f99;
+}

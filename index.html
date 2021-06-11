@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <form name="form">
+        <input type="text" name="display">
+    </form>
+    <div class="buttons">
+        <button class="clear" onclick="clearIt()">C</button>
+        <button class="delete" onclick="deleteIt()">Del</button>
+        <button class="pourcent" onclick="fillIt('%')">%</button>
+        <button class="darb" onclick="fillIt('*')">*</button>
+    </div>
+    <div class="buttons">
+        <button onclick="fillIt(7)">7</button>
+        <button onclick="fillIt(8)">8</button>
+        <button onclick="fillIt(9)">9</button>
+        <button class="div" onclick="fillIt('/')">/</button>
+    </div>
+    <div class="buttons">
+        <button onclick="fillIt(4)">4</button>
+        <button onclick="fillIt(5)">5</button>
+        <button onclick="fillIt(6)">6</button>
+        <button class="main" onclick="fillIt('-')">-</button>
+    </div>
+    <div class="buttons">
+        <button onclick="fillIt(1)">1</button>
+        <button onclick="fillIt(2)">2</button>
+        <button onclick="fillIt(3)">3</button>
+        <button class="plus" onclick="fillIt('+')">+</button>
+    </div>
+    <div class="buttons">
+        <button onclick="fillIt(0)">0</button>
+        <button onclick="fillIt('.')">.</button>
+        <button class="special" onclick="calculateIt()">=</button>
+    </div>
+</div>
+    
+<script src="file.js"></script>
+</body>
+</html>
